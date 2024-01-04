@@ -1,0 +1,25 @@
+.widget{
+    color: #464161;
+    margin-top: 40px;
+    padding-right: 100px;
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    border-left: 2px solid #464161;
+
+    .left
+    {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        font-weight: 600;
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+    .right
+    {
+        height: 50px;
+        width: 100px;
+    }
+
+}

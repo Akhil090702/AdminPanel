@@ -1,0 +1,84 @@
+.navbar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(106, 105, 105);
+
+    .wrapper {
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+
+        .Hello {
+            font-weight: bold;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+
+            .dropdown {
+                font-size: 19px;
+                margin-right: 4px;
+            }
+
+            .HeyEmoji {
+                color: rgb(193, 157, 28);
+                font-size: 17px;
+                margin-left: 2px;
+            }
+        }
+
+        .search {
+            padding: 6px 10px;
+            display: flex;
+            background-color: rgb(248 247 252);
+            align-items: center;
+
+            .searchicon {
+                color: gray;
+                margin-left: 10px;
+            }
+
+            input {
+                border: none;
+                background-color: rgb(248 247 252);
+                height: 30px;
+                width: 250px;
+            }
+        }
+
+        .items {
+            display: flex;
+            align-items: center;
+
+            #bell,
+            #msg,
+            #wave {
+                background-color: rgb(248 247 252);
+                padding: 5px 5px;
+            }
+
+            .item {
+                margin-right: 40px;
+                .upload {
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    background-color: rgb(255 107 59);
+                    color: white;
+                    border: none;
+                    font-size: 13px;
+                    font-weight: 400;
+                    padding: 8px 10px;
+                }
+                .image {
+                    height: 70px;
+                    width: 70px;
+                    object-fit: contain;
+                    border-radius: 10%;
+                }
+            }
+        }
+    }
+}

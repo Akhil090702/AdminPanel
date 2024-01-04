@@ -1,0 +1,60 @@
+.Piearea {
+    flex: 2;
+    // border: 0.5px solid black;
+    margin-right: 80px;
+
+    hr {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+
+        .text-title {
+            display: flex;
+
+            p {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+
+                .MoreVertOutlinedIcon {
+                    font-size: 25px;
+                    color: gray;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        margin-top: 20px;
+
+        .summary {
+            margin: 35px 1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(128, 128, 128, 0.737);
+
+            .trending {
+                margin-right: 4px;
+            }
+
+            .itemtitle {
+                margin-bottom: 20px;
+            }
+
+            .incpercent {
+                color: green;
+            }
+
+            .decpercent {
+                color: red;
+            }
+        }
+    }
+}

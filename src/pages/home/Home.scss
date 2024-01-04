@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    color: #4d4865;
+    .Homecontainer{
+        flex: 4.5;
+        .widgets, .charts{
+            display: flex;
+            padding: 40px;
+        }
+        
+        .chartinfo{
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .tableinfo{
+            padding-top: 0 !important;
+            padding: 40px;
+        }
+    }
+}

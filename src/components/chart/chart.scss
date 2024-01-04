@@ -1,0 +1,42 @@
+.chart {
+    flex: 1.5;
+    // border: 0.5px solid gray;
+
+    .top {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        .text-title {
+            display: flex;
+
+            p {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+
+                .MoreVertOutlinedIcon{
+                    font-size: 25px;
+                    padding-top: 4px;
+                    color: gray;
+                }
+            }
+        }
+
+        .title {
+            .revenuespan {
+                margin-left: 15px;
+                color: rgb(181, 14, 42);
+            }
+
+            .movingicon {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .bottom{
+        height: 250px;
+    }
+
+}
