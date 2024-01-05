@@ -38,7 +38,7 @@ const Sales = () => {
         <hr />
 
         <div className="chart">
-          <AreaChart width={730} height={150} data={data}
+          <AreaChart className='chartwidth' width={600} height={150} data={data}
             margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
           >
             <defs>

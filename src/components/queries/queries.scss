@@ -59,19 +59,20 @@
                 border: none;
                 margin-right: 25px;
 
-                &:hover{
+                &:hover {
                     background-color: rgb(50, 31, 157);
                     color: white;
                 }
             }
-            
-            .decline{
+
+            .decline {
                 color: rgb(175 124 126);
                 background-color: rgb(255 217 221);
                 padding: 6px 12px;
                 border-radius: 10%;
                 border: none;
-                &:hover{
+
+                &:hover {
                     background-color: rgb(202, 44, 44);
                     color: white;
                 }
@@ -84,14 +85,39 @@
                 border-radius: 10%;
                 border: none;
                 margin-right: 25px;
-                &:hover{
+
+                &:hover {
                     background-color: rgb(29, 149, 71);
                     color: white;
                 }
             }
         }
+    }
 
-
-
+    @media (min-width: 1492px) and (max-width: 1792px) {
+        .bottom {
+          .item {
+            margin-bottom: 20px;
+            .photo{
+                margin-right: 15px;
+            }
+            .phototext{
+                margin-right: 15px;
+            }
+            .money{
+                .View{
+                    margin-bottom: 20px;
+                }
+                .Approval{
+                    margin-bottom: 20px;
+                }
+                .Decline{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        }
     }
 }
+
+// 1732 1792
